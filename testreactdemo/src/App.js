@@ -4,7 +4,6 @@ import './App.css';
 import { Button, WingBlank, Range } from 'antd-mobile';
 
 class App extends Component {
-
   render() {
     const log = (name) => {
       return (value) => {
@@ -24,6 +23,7 @@ class App extends Component {
             onAfterChange={log('afterChange')}
           />
         </WingBlank>
+        <Button className="btnsty" type="primary">primary</Button>
       </div>
     );
   }
