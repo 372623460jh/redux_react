@@ -14,7 +14,7 @@ $ npm run eject
 ```
 > 命令执行完后会发现项目根目录下多了一个`config`文件夹，这个文件夹下就是可配合的配置文件。如果需要使用antd-mobile按需加载就需要先安装babel-plugin-import之后修改babel配置文件。在`package.json`里的`babel`里，加入
 ```json
-$ 
+$ npm install babel-plugin-import --save
 "plugins": [
     [
         "import",
